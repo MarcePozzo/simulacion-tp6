@@ -28,9 +28,17 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.chartEuler.Series[1].Points.Clear();
             this.chartEuler.Series[2].Points.Clear();
 
+            this.chartXSegundaEnFuncionDeXEuler.Series[0].Points.Clear();
+            this.chartXPrimeraEnFuncionDeXEuler.Series[0].Points.Clear();
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Series[0].Points.Clear();
+
             this.chartRK.Series[0].Points.Clear();
             this.chartRK.Series[1].Points.Clear();
             this.chartRK.Series[2].Points.Clear();
+
+            this.chartXSegundaEnFuncionDeXRK.Series[0].Points.Clear();
+            this.chartXPrimeraEnFuncionDeXRK.Series[0].Points.Clear();
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Series[0].Points.Clear();
 
             double aDesde = (double)this.inputCoeficienteADesdeSimulacion.Value;
             double aHasta = (double)this.inputCoeficienteAHastaSimulacion.Value;
@@ -52,9 +60,24 @@ namespace Simulacion_TP6.InterfacesUsuario
             return this.dataGridViewEuler;
         }
 
-        public Chart getChartAreaEuler()
+        public Chart getChartEuler()
         {
             return this.chartEuler;
+        }
+
+        public Chart getChartXSegundaEnFuncionDeXEuler()
+        {
+            return this.chartXSegundaEnFuncionDeXEuler;
+        }
+
+        public Chart getChartXPrimeraEnFuncionDeXEuler()
+        {
+            return this.chartXPrimeraEnFuncionDeXEuler;
+        }
+
+        public Chart getChartXSegundaEnFuncionDeXPrimeraEuler()
+        {
+            return this.chartXSegundaEnFuncionDeXPrimeraEuler;
         }
 
         public DataGridView getDataGridViewRK()
@@ -62,9 +85,24 @@ namespace Simulacion_TP6.InterfacesUsuario
             return this.dataGridViewRK;
         }
 
-        public Chart getChartAreaRK()
+        public Chart getChartRK()
         {
             return this.chartRK;
+        }
+
+        public Chart getChartXSegundaEnFuncionDeXRK()
+        {
+            return this.chartXSegundaEnFuncionDeXRK;
+        }
+
+        public Chart getChartXPrimeraEnFuncionDeXRK()
+        {
+            return this.chartXPrimeraEnFuncionDeXRK;
+        }
+
+        public Chart getChartXSegundaEnFuncionDeXPrimeraRK()
+        {
+            return this.chartXSegundaEnFuncionDeXPrimeraRK;
         }
 
         public NumericUpDown getInputTiempoPicoEuler()

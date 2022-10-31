@@ -30,16 +30,34 @@ namespace Simulacion_TP6.InterfacesUsuario
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMetodos));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.gbParametrosMetodosNumericosSimulacion = new System.Windows.Forms.GroupBox();
             this.lblCoeficienteX0Simulacion = new System.Windows.Forms.Label();
             this.inputCoeficienteX0Simulacion = new System.Windows.Forms.NumericUpDown();
@@ -60,19 +78,25 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbEuler = new System.Windows.Forms.GroupBox();
             this.chartEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.gbValores = new System.Windows.Forms.GroupBox();
+            this.inputTiempoPicoRK = new System.Windows.Forms.NumericUpDown();
+            this.lblTiempoPicoRK = new System.Windows.Forms.Label();
+            this.inputValorPicoRK = new System.Windows.Forms.NumericUpDown();
+            this.lblValorPicoRK = new System.Windows.Forms.Label();
             this.inputTiempoPicoEuler = new System.Windows.Forms.NumericUpDown();
             this.lblTiempoPicoEuler = new System.Windows.Forms.Label();
             this.inputValorPicoEuler = new System.Windows.Forms.NumericUpDown();
             this.inputValorA = new System.Windows.Forms.NumericUpDown();
             this.lblValorA = new System.Windows.Forms.Label();
             this.lblValorPicoEuler = new System.Windows.Forms.Label();
-            this.inputTiempoPicoRK = new System.Windows.Forms.NumericUpDown();
-            this.lblTiempoPicoRK = new System.Windows.Forms.Label();
-            this.inputValorPicoRK = new System.Windows.Forms.NumericUpDown();
-            this.lblValorPicoRK = new System.Windows.Forms.Label();
             this.gbRK = new System.Windows.Forms.GroupBox();
             this.chartRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewRK = new System.Windows.Forms.DataGridView();
+            this.chartXSegundaEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXPrimeraEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXSegundaEnFuncionDeXPrimeraEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXSegundaEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXPrimeraEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXSegundaEnFuncionDeXPrimeraRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.gbParametrosMetodosNumericosSimulacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteX0Simulacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteXPrima0Simulacion)).BeginInit();
@@ -85,14 +109,20 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbEuler.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartEuler)).BeginInit();
             this.gbValores.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoRK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoEuler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoEuler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorA)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoRK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoRK)).BeginInit();
             this.gbRK.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartRK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).BeginInit();
             this.SuspendLayout();
             // 
             // gbParametrosMetodosNumericosSimulacion
@@ -364,38 +394,41 @@ namespace Simulacion_TP6.InterfacesUsuario
             // 
             // gbEuler
             // 
+            this.gbEuler.Controls.Add(this.chartXSegundaEnFuncionDeXPrimeraEuler);
+            this.gbEuler.Controls.Add(this.chartXPrimeraEnFuncionDeXEuler);
+            this.gbEuler.Controls.Add(this.chartXSegundaEnFuncionDeXEuler);
             this.gbEuler.Controls.Add(this.chartEuler);
             this.gbEuler.Controls.Add(this.dataGridViewEuler);
             this.gbEuler.Location = new System.Drawing.Point(242, 12);
             this.gbEuler.Name = "gbEuler";
-            this.gbEuler.Size = new System.Drawing.Size(985, 322);
+            this.gbEuler.Size = new System.Drawing.Size(2520, 322);
             this.gbEuler.TabIndex = 25;
             this.gbEuler.TabStop = false;
             this.gbEuler.Text = "Euler";
             // 
             // chartEuler
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartEuler.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chartEuler.Legends.Add(legend3);
+            chartArea4.Name = "ChartArea1";
+            this.chartEuler.ChartAreas.Add(chartArea4);
+            legend4.Name = "Legend1";
+            this.chartEuler.Legends.Add(legend4);
             this.chartEuler.Location = new System.Drawing.Point(476, 19);
             this.chartEuler.Name = "chartEuler";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Legend = "Legend1";
-            series7.Name = "x\'\'";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "x\'";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Legend = "Legend1";
-            series9.Name = "x";
-            this.chartEuler.Series.Add(series7);
-            this.chartEuler.Series.Add(series8);
-            this.chartEuler.Series.Add(series9);
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Legend = "Legend1";
+            series4.Name = "x\'\'";
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series5.Legend = "Legend1";
+            series5.Name = "x\'";
+            series6.ChartArea = "ChartArea1";
+            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series6.Legend = "Legend1";
+            series6.Name = "x";
+            this.chartEuler.Series.Add(series4);
+            this.chartEuler.Series.Add(series5);
+            this.chartEuler.Series.Add(series6);
             this.chartEuler.Size = new System.Drawing.Size(502, 290);
             this.chartEuler.TabIndex = 25;
             this.chartEuler.Text = "chart1";
@@ -418,6 +451,65 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbValores.TabIndex = 30;
             this.gbValores.TabStop = false;
             this.gbValores.Text = "Valores";
+            // 
+            // inputTiempoPicoRK
+            // 
+            this.inputTiempoPicoRK.DecimalPlaces = 4;
+            this.inputTiempoPicoRK.Enabled = false;
+            this.inputTiempoPicoRK.Location = new System.Drawing.Point(145, 104);
+            this.inputTiempoPicoRK.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.inputTiempoPicoRK.Minimum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            -2147483648});
+            this.inputTiempoPicoRK.Name = "inputTiempoPicoRK";
+            this.inputTiempoPicoRK.Size = new System.Drawing.Size(66, 20);
+            this.inputTiempoPicoRK.TabIndex = 26;
+            // 
+            // lblTiempoPicoRK
+            // 
+            this.lblTiempoPicoRK.AutoSize = true;
+            this.lblTiempoPicoRK.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempoPicoRK.Location = new System.Drawing.Point(45, 104);
+            this.lblTiempoPicoRK.Name = "lblTiempoPicoRK";
+            this.lblTiempoPicoRK.Size = new System.Drawing.Size(94, 17);
+            this.lblTiempoPicoRK.TabIndex = 25;
+            this.lblTiempoPicoRK.Text = "Tiempo Pico RK";
+            // 
+            // inputValorPicoRK
+            // 
+            this.inputValorPicoRK.DecimalPlaces = 4;
+            this.inputValorPicoRK.Enabled = false;
+            this.inputValorPicoRK.Location = new System.Drawing.Point(145, 130);
+            this.inputValorPicoRK.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.inputValorPicoRK.Minimum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            -2147483648});
+            this.inputValorPicoRK.Name = "inputValorPicoRK";
+            this.inputValorPicoRK.Size = new System.Drawing.Size(66, 20);
+            this.inputValorPicoRK.TabIndex = 24;
+            // 
+            // lblValorPicoRK
+            // 
+            this.lblValorPicoRK.AutoSize = true;
+            this.lblValorPicoRK.Enabled = false;
+            this.lblValorPicoRK.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblValorPicoRK.Location = new System.Drawing.Point(58, 130);
+            this.lblValorPicoRK.Name = "lblValorPicoRK";
+            this.lblValorPicoRK.Size = new System.Drawing.Size(81, 17);
+            this.lblValorPicoRK.TabIndex = 23;
+            this.lblValorPicoRK.Text = "Valor Pico RK";
             // 
             // inputTiempoPicoEuler
             // 
@@ -507,82 +599,26 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.lblValorPicoEuler.TabIndex = 13;
             this.lblValorPicoEuler.Text = "Valor Pico Euler";
             // 
-            // inputTiempoPicoRK
-            // 
-            this.inputTiempoPicoRK.DecimalPlaces = 4;
-            this.inputTiempoPicoRK.Enabled = false;
-            this.inputTiempoPicoRK.Location = new System.Drawing.Point(145, 104);
-            this.inputTiempoPicoRK.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.inputTiempoPicoRK.Minimum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            -2147483648});
-            this.inputTiempoPicoRK.Name = "inputTiempoPicoRK";
-            this.inputTiempoPicoRK.Size = new System.Drawing.Size(66, 20);
-            this.inputTiempoPicoRK.TabIndex = 26;
-            // 
-            // lblTiempoPicoRK
-            // 
-            this.lblTiempoPicoRK.AutoSize = true;
-            this.lblTiempoPicoRK.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTiempoPicoRK.Location = new System.Drawing.Point(45, 104);
-            this.lblTiempoPicoRK.Name = "lblTiempoPicoRK";
-            this.lblTiempoPicoRK.Size = new System.Drawing.Size(94, 17);
-            this.lblTiempoPicoRK.TabIndex = 25;
-            this.lblTiempoPicoRK.Text = "Tiempo Pico RK";
-            // 
-            // inputValorPicoRK
-            // 
-            this.inputValorPicoRK.DecimalPlaces = 4;
-            this.inputValorPicoRK.Enabled = false;
-            this.inputValorPicoRK.Location = new System.Drawing.Point(145, 130);
-            this.inputValorPicoRK.Maximum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            0});
-            this.inputValorPicoRK.Minimum = new decimal(new int[] {
-            10000,
-            0,
-            0,
-            -2147483648});
-            this.inputValorPicoRK.Name = "inputValorPicoRK";
-            this.inputValorPicoRK.Size = new System.Drawing.Size(66, 20);
-            this.inputValorPicoRK.TabIndex = 24;
-            // 
-            // lblValorPicoRK
-            // 
-            this.lblValorPicoRK.AutoSize = true;
-            this.lblValorPicoRK.Enabled = false;
-            this.lblValorPicoRK.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValorPicoRK.Location = new System.Drawing.Point(58, 130);
-            this.lblValorPicoRK.Name = "lblValorPicoRK";
-            this.lblValorPicoRK.Size = new System.Drawing.Size(81, 17);
-            this.lblValorPicoRK.TabIndex = 23;
-            this.lblValorPicoRK.Text = "Valor Pico RK";
-            // 
             // gbRK
             // 
+            this.gbRK.Controls.Add(this.chartXSegundaEnFuncionDeXPrimeraRK);
+            this.gbRK.Controls.Add(this.chartXPrimeraEnFuncionDeXRK);
+            this.gbRK.Controls.Add(this.chartXSegundaEnFuncionDeXRK);
             this.gbRK.Controls.Add(this.chartRK);
             this.gbRK.Controls.Add(this.dataGridViewRK);
             this.gbRK.Location = new System.Drawing.Point(242, 340);
             this.gbRK.Name = "gbRK";
-            this.gbRK.Size = new System.Drawing.Size(985, 322);
+            this.gbRK.Size = new System.Drawing.Size(2520, 322);
             this.gbRK.TabIndex = 26;
             this.gbRK.TabStop = false;
             this.gbRK.Text = "Runge Kutta";
             // 
             // chartRK
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartRK.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartRK.Legends.Add(legend4);
+            chartArea8.Name = "ChartArea1";
+            this.chartRK.ChartAreas.Add(chartArea8);
+            legend8.Name = "Legend1";
+            this.chartRK.Legends.Add(legend8);
             this.chartRK.Location = new System.Drawing.Point(476, 19);
             this.chartRK.Name = "chartRK";
             series10.ChartArea = "ChartArea1";
@@ -612,11 +648,114 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.dataGridViewRK.Size = new System.Drawing.Size(464, 290);
             this.dataGridViewRK.TabIndex = 24;
             // 
+            // chartXSegundaEnFuncionDeXEuler
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXEuler.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXEuler.Legends.Add(legend3);
+            this.chartXSegundaEnFuncionDeXEuler.Location = new System.Drawing.Point(984, 19);
+            this.chartXSegundaEnFuncionDeXEuler.Name = "chartXSegundaEnFuncionDeXEuler";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Legend = "Legend1";
+            series3.Name = "x\'\' en funcion de x";
+            this.chartXSegundaEnFuncionDeXEuler.Series.Add(series3);
+            this.chartXSegundaEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXEuler.TabIndex = 26;
+            this.chartXSegundaEnFuncionDeXEuler.Text = "chart1";
+            // 
+            // chartXPrimeraEnFuncionDeXEuler
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chartXPrimeraEnFuncionDeXEuler.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartXPrimeraEnFuncionDeXEuler.Legends.Add(legend2);
+            this.chartXPrimeraEnFuncionDeXEuler.Location = new System.Drawing.Point(1492, 19);
+            this.chartXPrimeraEnFuncionDeXEuler.Name = "chartXPrimeraEnFuncionDeXEuler";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.Name = "x\' en funcion de x";
+            this.chartXPrimeraEnFuncionDeXEuler.Series.Add(series2);
+            this.chartXPrimeraEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXPrimeraEnFuncionDeXEuler.TabIndex = 27;
+            this.chartXPrimeraEnFuncionDeXEuler.Text = "chart2";
+            // 
+            // chartXSegundaEnFuncionDeXPrimeraEuler
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Legends.Add(legend1);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Location = new System.Drawing.Point(2011, 19);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Name = "chartXSegundaEnFuncionDeXPrimeraEuler";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Legend = "Legend1";
+            series1.Name = "x\'\' en funcion de x\'";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Series.Add(series1);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.TabIndex = 28;
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Text = "chart3";
+            // 
+            // chartXSegundaEnFuncionDeXRK
+            // 
+            chartArea7.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXRK.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXRK.Legends.Add(legend7);
+            this.chartXSegundaEnFuncionDeXRK.Location = new System.Drawing.Point(984, 16);
+            this.chartXSegundaEnFuncionDeXRK.Name = "chartXSegundaEnFuncionDeXRK";
+            series9.ChartArea = "ChartArea1";
+            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series9.Legend = "Legend1";
+            series9.Name = "x\'\' en funcion de x";
+            this.chartXSegundaEnFuncionDeXRK.Series.Add(series9);
+            this.chartXSegundaEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXRK.TabIndex = 29;
+            this.chartXSegundaEnFuncionDeXRK.Text = "chart1";
+            // 
+            // chartXPrimeraEnFuncionDeXRK
+            // 
+            chartArea6.Name = "ChartArea1";
+            this.chartXPrimeraEnFuncionDeXRK.ChartAreas.Add(chartArea6);
+            legend6.Name = "Legend1";
+            this.chartXPrimeraEnFuncionDeXRK.Legends.Add(legend6);
+            this.chartXPrimeraEnFuncionDeXRK.Location = new System.Drawing.Point(1492, 16);
+            this.chartXPrimeraEnFuncionDeXRK.Name = "chartXPrimeraEnFuncionDeXRK";
+            series8.ChartArea = "ChartArea1";
+            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series8.Legend = "Legend1";
+            series8.Name = "x\' en funcion de x";
+            this.chartXPrimeraEnFuncionDeXRK.Series.Add(series8);
+            this.chartXPrimeraEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXPrimeraEnFuncionDeXRK.TabIndex = 29;
+            this.chartXPrimeraEnFuncionDeXRK.Text = "chart2";
+            // 
+            // chartXSegundaEnFuncionDeXPrimeraRK
+            // 
+            chartArea5.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Legends.Add(legend5);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Location = new System.Drawing.Point(2006, 16);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Name = "chartXSegundaEnFuncionDeXPrimeraRK";
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series7.Legend = "Legend1";
+            series7.Name = "x\'\' en funcion de x\'";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Series.Add(series7);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.TabIndex = 30;
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Text = "chart3";
+            // 
             // FormMetodos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1232, 668);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1299, 668);
             this.Controls.Add(this.gbRK);
             this.Controls.Add(this.gbValores);
             this.Controls.Add(this.gbEuler);
@@ -638,14 +777,20 @@ namespace Simulacion_TP6.InterfacesUsuario
             ((System.ComponentModel.ISupportInitialize)(this.chartEuler)).EndInit();
             this.gbValores.ResumeLayout(false);
             this.gbValores.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoRK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoEuler)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoEuler)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorA)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoRK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoRK)).EndInit();
             this.gbRK.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.chartRK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -685,5 +830,11 @@ namespace Simulacion_TP6.InterfacesUsuario
         private System.Windows.Forms.GroupBox gbRK;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartRK;
         private System.Windows.Forms.DataGridView dataGridViewRK;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXPrimeraEuler;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXPrimeraEnFuncionDeXEuler;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXEuler;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXPrimeraRK;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXPrimeraEnFuncionDeXRK;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXRK;
     }
 }

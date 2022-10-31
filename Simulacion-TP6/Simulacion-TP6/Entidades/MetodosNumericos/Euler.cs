@@ -77,9 +77,13 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
                 double xPrima = Double.Parse((String)row.ItemArray[2]);
                 double xPrimaSegunda = Double.Parse((String)row.ItemArray[3]);
 
-                formMetodos.getChartAreaEuler().Series[0].Points.AddXY(t, xPrimaSegunda);
-                formMetodos.getChartAreaEuler().Series[1].Points.AddXY(t, xPrima);
-                formMetodos.getChartAreaEuler().Series[2].Points.AddXY(t, x);
+                formMetodos.getChartEuler().Series[0].Points.AddXY(t, xPrimaSegunda);
+                formMetodos.getChartEuler().Series[1].Points.AddXY(t, xPrima);
+                formMetodos.getChartEuler().Series[2].Points.AddXY(t, x);
+
+                formMetodos.getChartXSegundaEnFuncionDeXEuler().Series[0].Points.AddXY(Math.Round(x, 4), xPrimaSegunda);
+                formMetodos.getChartXPrimeraEnFuncionDeXEuler().Series[0].Points.AddXY(Math.Round(x, 4), xPrima);
+                formMetodos.getChartXSegundaEnFuncionDeXPrimeraEuler().Series[0].Points.AddXY(Math.Round(xPrima, 4), xPrimaSegunda);
             }
         }
 
