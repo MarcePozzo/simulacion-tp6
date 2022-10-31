@@ -58,6 +58,7 @@
     <Compile Include="Controlador.cs" />
     <Compile Include="ControladorMetodosNumericos.cs" />
     <Compile Include="Entidades\Generadores VA\GeneradorVAExponencialNegativa.cs" />
+    <Compile Include="Entidades\Generadores VA\GeneradorVAMetodoNumerico.cs" />
     <Compile Include="Entidades\Generadores VA\GeneradorVANormal.cs" />
     <Compile Include="Entidades\Generadores VA\GeneradorVAPoisson.cs" />
     <Compile Include="Entidades\Generadores VA\GeneradorVAUniforme.cs" />

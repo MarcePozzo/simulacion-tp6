@@ -42,7 +42,8 @@ namespace Simulacion_TP6.Entidades
             if (this.ocupado)
             {
                 this.getCola(indiceCola).sumar();
-            } else
+            }
+            else
             {
                 // sino, tengo que ver si puedo ensamblar.
                 // solo puede ensamblar si hay al menos 1 elemento en las otras colases
@@ -61,16 +62,26 @@ namespace Simulacion_TP6.Entidades
                 }
                 if (puedeEnsamblar)
                 {
+                    for (int i = 0; i < this.colas.Count; i++)
+                    {
+                        if (i != indiceCola)
+                        {
+                            Cola cola = this.colas.ElementAt(i);
+                            cola.restar();
+                        }
+                    }
                     // si puedo ensamblar, calculo cuanto tiempo me toma y me pongo ocupado
                     this.sumarPedido(reloj);
                     if (this.generadorVA != null)
                     {
                         this.cambiarEstado(true);
-                    } else
+                    }
+                    else
                     {
                         this.finalizarTarea(reloj);
                     }
-                } else
+                }
+                else
                 {
                     // si no puedo ensamblar, sumo uno a la cola correspondiente
                     this.getCola(indiceCola).sumar();
@@ -80,21 +91,16 @@ namespace Simulacion_TP6.Entidades
 
         public void finalizarTarea(double reloj)
         {
-            Boolean puedoEnsamblar = true;
-            this.colas.ForEach(cola =>
-            {
-                if (cola.cantidad == 0)
-                {
-                    puedoEnsamblar = false;
-                } else
-                {
-                    cola.restar();
-                }
-            });
+            Boolean puedoEnsamblar = this.colas.All(cola => cola.cantidad > 0);
             if (puedoEnsamblar)
             {
+                this.colas.ForEach(cola =>
+                {
+                    cola.restar();
+                });
                 this.sumarPedido(reloj);
-            } else
+            }
+            else
             {
                 this.cambiarEstado(false);
                 this.tiempo = 0;
@@ -113,7 +119,8 @@ namespace Simulacion_TP6.Entidades
             if (this.generadorVA != null)
             {
                 this.tiempo = this.generadorVA.ObtenerSiguiente().ValorAleatorio;
-            } else
+            }
+            else
             {
                 this.tiempo = 0;
             }
@@ -153,7 +160,7 @@ namespace Simulacion_TP6.Entidades
                 this.porcentajeTiempoOcupado = (this.tiempoOcupadoAcumulado / reloj) * 100;
             }
         }
-        
+
         public void calcularPorcentajeBloqueoServidor(double reloj, double relojAnterior)
         {
             if (reloj != 0)
@@ -164,8 +171,8 @@ namespace Simulacion_TP6.Entidades
                 }
                 this.porcentajeTiempoBloqueado = (this.tiempoBloqueadoAcumulado / reloj) * 100;
             }
-        } 
-        public void  calcularProporcioneBloqueoRespectoOcupacion()
+        }
+        public void calcularProporcioneBloqueoRespectoOcupacion()
         {
             var proporcionOcupacion = this.porcentajeTiempoOcupado / 100;
             var proporcionBloqueo = this.porcentajeTiempoBloqueado / 100;
