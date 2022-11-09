@@ -48,7 +48,7 @@ namespace Simulacion_TP6.Entidades.Generadores_VA
         {
             VariableAleatoria variableAleatoria = new VariableAleatoria();
             double a = generador.ObtenerSiguiente().ValorAleatorio;
-            ResultadoMetodoNumerico resultado = metodo.calcular(null, a, this.b, this.c, this.h, this.x0, this.y0, false);
+            ResultadoMetodoNumerico resultado = metodo.calcular(null, a, this.b, this.c, this.h, this.x0, this.y0, false, 2);
             variableAleatoria.ValorAleatorio = resultado.valor;
             return variableAleatoria;
         }

@@ -10,7 +10,7 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
 {
     class Euler : IMetodoNumerico
     {
-        public ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar)
+        public ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar, double cantidadPicos)
         {
             ResultadoMetodoNumerico resultado = new ResultadoMetodoNumerico();
 
@@ -31,28 +31,40 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
 
             int contadorPicos = 0;
             double valorAnterior = 0;
+            double valor = 0;
             double valorPico = 0;
+            double tiempoPico = 0;
+            double tiempoAnterior = 0;
 
-            while (contadorPicos < 2)
+            while (contadorPicos <= cantidadPicos)
             {
                 t = t + h;
                 x = x + y * h;
                 y = y + yd * h;
                 yd = this.derivadaSegunda(a, b, c, y, x, t);
 
-                if (valorPico > x && valorPico > valorAnterior)
+                if (valor > x && valor > valorAnterior)
                 {
                     contadorPicos++;
                 }
-                valorAnterior = valorPico;
-                valorPico = x;
+
+                if (contadorPicos == 2 && valorPico == 0)
+                {
+                    valorPico = valor;
+                    tiempoPico = tiempoAnterior;
+                }
+
+                tiempoAnterior = t;
+                valorAnterior = valor;
+                valor = x;
+
                 if (graficar)
                 {
                     this.agregarFila(resultado, t, x, y, yd);
                 }
             }
 
-            resultado.tiempo = t;
+            resultado.tiempo = tiempoPico;
             resultado.valor = valorPico;
 
             if(graficar)

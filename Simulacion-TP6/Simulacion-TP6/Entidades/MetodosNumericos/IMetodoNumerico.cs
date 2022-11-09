@@ -9,6 +9,6 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
 {
     interface IMetodoNumerico
     {
-        ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar);
+        ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar, double cantidadPicos);
     }
 }

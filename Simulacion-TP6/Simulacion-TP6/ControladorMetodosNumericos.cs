@@ -14,10 +14,10 @@ namespace Simulacion_TP6
         private IMetodoNumerico metodoEuler = new Euler();
         private IMetodoNumerico metodoRK = new RungeKutta();
 
-        public void simular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0)
+        public void simular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, double cantidadPicos)
         {
-            metodoEuler.calcular(formMetodos, a, b, c, h, x0, y0, true);
-            metodoRK.calcular(formMetodos, a, b, c, h, x0, y0, true);
+            metodoEuler.calcular(formMetodos, a, b, c, h, x0, y0, true, cantidadPicos);
+            metodoRK.calcular(formMetodos, a, b, c, h, x0, y0, true, cantidadPicos);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
 {
     class RungeKutta : IMetodoNumerico
     {
-        public ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar)
+        public ResultadoMetodoNumerico calcular(FormMetodos formMetodos, double a, double b, double c, double h, double x0, double y0, Boolean graficar, double cantidadPicos)
         {
             ResultadoMetodoNumerico resultado = new ResultadoMetodoNumerico();
 
@@ -39,9 +39,12 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
 
             int contadorPicos = 0;
             double valorAnterior = 0;
+            double valor = 0;
             double valorPico = 0;
+            double tiempoPico = 0;
+            double tiempoAnterior = 0;
 
-            while (contadorPicos < 2)
+            while (contadorPicos < cantidadPicos)
             {
                 t = t + h;
                 x = x + (k1 + 2 * k2 + 2 * k3 + k4) / 6;
@@ -56,12 +59,20 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
                 l4 = h * derivadaSegunda(a, b, c, (y + l3), (x + k3), (t + h));
                 k4 = h * (y + l3);
 
-                if (valorPico > x && valorPico > valorAnterior)
+                if (valor > x && valor > valorAnterior)
                 {
                     contadorPicos++;
                 }
-                valorAnterior = valorPico;
-                valorPico = x;
+
+                if (contadorPicos == 2 && valorPico == 0)
+                {
+                    valorPico = valor;
+                    tiempoPico = tiempoAnterior;
+                }
+
+                tiempoAnterior = t;
+                valorAnterior = valor;
+                valor = x;
 
                 if (graficar)
                 {
@@ -69,7 +80,7 @@ namespace Simulacion_TP6.Entidades.MetodosNumericos
                 }
             }
 
-            resultado.tiempo = t;
+            resultado.tiempo = tiempoPico;
             resultado.valor = valorPico;
 
             if (graficar)

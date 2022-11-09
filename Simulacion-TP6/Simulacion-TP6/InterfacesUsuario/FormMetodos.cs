@@ -52,7 +52,9 @@ namespace Simulacion_TP6.InterfacesUsuario
             double x0 = (double)this.inputCoeficienteX0Simulacion.Value;
             double y0 = (double)this.inputCoeficienteXPrima0Simulacion.Value;
 
-            controlador.simular(this, a, b, c, h, x0, y0);
+            double cantidadPicos = (double)this.inputCantidadPicos.Value;
+
+            controlador.simular(this, a, b, c, h, x0, y0, cantidadPicos);
         }
 
         public DataGridView getDataGridViewEuler()

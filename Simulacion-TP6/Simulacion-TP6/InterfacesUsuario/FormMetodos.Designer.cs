@@ -30,34 +30,34 @@ namespace Simulacion_TP6.InterfacesUsuario
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMetodos));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend8 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend10 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea13 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend13 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea14 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend14 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea15 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend15 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series21 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea16 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend16 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series22 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series23 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series24 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.gbParametrosMetodosNumericosSimulacion = new System.Windows.Forms.GroupBox();
             this.lblCoeficienteX0Simulacion = new System.Windows.Forms.Label();
             this.inputCoeficienteX0Simulacion = new System.Windows.Forms.NumericUpDown();
@@ -76,6 +76,9 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.btnIniciar = new System.Windows.Forms.Button();
             this.dataGridViewEuler = new System.Windows.Forms.DataGridView();
             this.gbEuler = new System.Windows.Forms.GroupBox();
+            this.chartXSegundaEnFuncionDeXPrimeraEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXPrimeraEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXSegundaEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.gbValores = new System.Windows.Forms.GroupBox();
             this.inputTiempoPicoRK = new System.Windows.Forms.NumericUpDown();
@@ -89,14 +92,13 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.lblValorA = new System.Windows.Forms.Label();
             this.lblValorPicoEuler = new System.Windows.Forms.Label();
             this.gbRK = new System.Windows.Forms.GroupBox();
+            this.chartXSegundaEnFuncionDeXPrimeraRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXPrimeraEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartXSegundaEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.chartRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.dataGridViewRK = new System.Windows.Forms.DataGridView();
-            this.chartXSegundaEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartXPrimeraEnFuncionDeXEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartXSegundaEnFuncionDeXPrimeraEuler = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartXSegundaEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartXPrimeraEnFuncionDeXRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.chartXSegundaEnFuncionDeXPrimeraRK = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.inputCantidadPicos = new System.Windows.Forms.NumericUpDown();
+            this.lblCantidadPicos = new System.Windows.Forms.Label();
             this.gbParametrosMetodosNumericosSimulacion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteX0Simulacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteXPrima0Simulacion)).BeginInit();
@@ -107,6 +109,9 @@ namespace Simulacion_TP6.InterfacesUsuario
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteADesdeSimulacion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEuler)).BeginInit();
             this.gbEuler.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartEuler)).BeginInit();
             this.gbValores.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.inputTiempoPicoRK)).BeginInit();
@@ -115,18 +120,18 @@ namespace Simulacion_TP6.InterfacesUsuario
             ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoEuler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorA)).BeginInit();
             this.gbRK.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartRK)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputCantidadPicos)).BeginInit();
             this.SuspendLayout();
             // 
             // gbParametrosMetodosNumericosSimulacion
             // 
+            this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.lblCantidadPicos);
+            this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.inputCantidadPicos);
             this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.lblCoeficienteX0Simulacion);
             this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.inputCoeficienteX0Simulacion);
             this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.lblCoeficienteXPrima0Simulacion);
@@ -143,7 +148,7 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbParametrosMetodosNumericosSimulacion.Controls.Add(this.lblCoeficienteBSimulacion);
             this.gbParametrosMetodosNumericosSimulacion.Location = new System.Drawing.Point(12, 12);
             this.gbParametrosMetodosNumericosSimulacion.Name = "gbParametrosMetodosNumericosSimulacion";
-            this.gbParametrosMetodosNumericosSimulacion.Size = new System.Drawing.Size(224, 210);
+            this.gbParametrosMetodosNumericosSimulacion.Size = new System.Drawing.Size(224, 237);
             this.gbParametrosMetodosNumericosSimulacion.TabIndex = 22;
             this.gbParametrosMetodosNumericosSimulacion.TabStop = false;
             this.gbParametrosMetodosNumericosSimulacion.Text = "Parámetros Métodos Numéricos";
@@ -374,7 +379,7 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.btnIniciar.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnIniciar.Image = ((System.Drawing.Image)(resources.GetObject("btnIniciar.Image")));
             this.btnIniciar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnIniciar.Location = new System.Drawing.Point(62, 228);
+            this.btnIniciar.Location = new System.Drawing.Point(62, 255);
             this.btnIniciar.Name = "btnIniciar";
             this.btnIniciar.Padding = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btnIniciar.Size = new System.Drawing.Size(103, 44);
@@ -406,29 +411,80 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbEuler.TabStop = false;
             this.gbEuler.Text = "Euler";
             // 
+            // chartXSegundaEnFuncionDeXPrimeraEuler
+            // 
+            chartArea9.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Legends.Add(legend9);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Location = new System.Drawing.Point(2011, 19);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Name = "chartXSegundaEnFuncionDeXPrimeraEuler";
+            series13.ChartArea = "ChartArea1";
+            series13.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series13.Legend = "Legend1";
+            series13.Name = "x\'\' en funcion de x\'";
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Series.Add(series13);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.TabIndex = 28;
+            this.chartXSegundaEnFuncionDeXPrimeraEuler.Text = "chart3";
+            // 
+            // chartXPrimeraEnFuncionDeXEuler
+            // 
+            chartArea10.Name = "ChartArea1";
+            this.chartXPrimeraEnFuncionDeXEuler.ChartAreas.Add(chartArea10);
+            legend10.Name = "Legend1";
+            this.chartXPrimeraEnFuncionDeXEuler.Legends.Add(legend10);
+            this.chartXPrimeraEnFuncionDeXEuler.Location = new System.Drawing.Point(1492, 19);
+            this.chartXPrimeraEnFuncionDeXEuler.Name = "chartXPrimeraEnFuncionDeXEuler";
+            series14.ChartArea = "ChartArea1";
+            series14.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series14.Legend = "Legend1";
+            series14.Name = "x\' en funcion de x";
+            this.chartXPrimeraEnFuncionDeXEuler.Series.Add(series14);
+            this.chartXPrimeraEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXPrimeraEnFuncionDeXEuler.TabIndex = 27;
+            this.chartXPrimeraEnFuncionDeXEuler.Text = "chart2";
+            // 
+            // chartXSegundaEnFuncionDeXEuler
+            // 
+            chartArea11.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXEuler.ChartAreas.Add(chartArea11);
+            legend11.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXEuler.Legends.Add(legend11);
+            this.chartXSegundaEnFuncionDeXEuler.Location = new System.Drawing.Point(984, 19);
+            this.chartXSegundaEnFuncionDeXEuler.Name = "chartXSegundaEnFuncionDeXEuler";
+            series15.ChartArea = "ChartArea1";
+            series15.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series15.Legend = "Legend1";
+            series15.Name = "x\'\' en funcion de x";
+            this.chartXSegundaEnFuncionDeXEuler.Series.Add(series15);
+            this.chartXSegundaEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXEuler.TabIndex = 26;
+            this.chartXSegundaEnFuncionDeXEuler.Text = "chart1";
+            // 
             // chartEuler
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartEuler.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartEuler.Legends.Add(legend4);
+            chartArea12.Name = "ChartArea1";
+            this.chartEuler.ChartAreas.Add(chartArea12);
+            legend12.Name = "Legend1";
+            this.chartEuler.Legends.Add(legend12);
             this.chartEuler.Location = new System.Drawing.Point(476, 19);
             this.chartEuler.Name = "chartEuler";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Legend = "Legend1";
-            series4.Name = "x\'\'";
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.Legend = "Legend1";
-            series5.Name = "x\'";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series6.Legend = "Legend1";
-            series6.Name = "x";
-            this.chartEuler.Series.Add(series4);
-            this.chartEuler.Series.Add(series5);
-            this.chartEuler.Series.Add(series6);
+            series16.ChartArea = "ChartArea1";
+            series16.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series16.Legend = "Legend1";
+            series16.Name = "x\'\'";
+            series17.ChartArea = "ChartArea1";
+            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series17.Legend = "Legend1";
+            series17.Name = "x\'";
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series18.Legend = "Legend1";
+            series18.Name = "x";
+            this.chartEuler.Series.Add(series16);
+            this.chartEuler.Series.Add(series17);
+            this.chartEuler.Series.Add(series18);
             this.chartEuler.Size = new System.Drawing.Size(502, 290);
             this.chartEuler.TabIndex = 25;
             this.chartEuler.Text = "chart1";
@@ -445,7 +501,7 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbValores.Controls.Add(this.inputValorA);
             this.gbValores.Controls.Add(this.lblValorA);
             this.gbValores.Controls.Add(this.lblValorPicoEuler);
-            this.gbValores.Location = new System.Drawing.Point(12, 278);
+            this.gbValores.Location = new System.Drawing.Point(12, 305);
             this.gbValores.Name = "gbValores";
             this.gbValores.Size = new System.Drawing.Size(224, 162);
             this.gbValores.TabIndex = 30;
@@ -613,29 +669,80 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.gbRK.TabStop = false;
             this.gbRK.Text = "Runge Kutta";
             // 
+            // chartXSegundaEnFuncionDeXPrimeraRK
+            // 
+            chartArea13.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.ChartAreas.Add(chartArea13);
+            legend13.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Legends.Add(legend13);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Location = new System.Drawing.Point(2006, 16);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Name = "chartXSegundaEnFuncionDeXPrimeraRK";
+            series19.ChartArea = "ChartArea1";
+            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series19.Legend = "Legend1";
+            series19.Name = "x\'\' en funcion de x\'";
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Series.Add(series19);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXPrimeraRK.TabIndex = 30;
+            this.chartXSegundaEnFuncionDeXPrimeraRK.Text = "chart3";
+            // 
+            // chartXPrimeraEnFuncionDeXRK
+            // 
+            chartArea14.Name = "ChartArea1";
+            this.chartXPrimeraEnFuncionDeXRK.ChartAreas.Add(chartArea14);
+            legend14.Name = "Legend1";
+            this.chartXPrimeraEnFuncionDeXRK.Legends.Add(legend14);
+            this.chartXPrimeraEnFuncionDeXRK.Location = new System.Drawing.Point(1492, 16);
+            this.chartXPrimeraEnFuncionDeXRK.Name = "chartXPrimeraEnFuncionDeXRK";
+            series20.ChartArea = "ChartArea1";
+            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series20.Legend = "Legend1";
+            series20.Name = "x\' en funcion de x";
+            this.chartXPrimeraEnFuncionDeXRK.Series.Add(series20);
+            this.chartXPrimeraEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXPrimeraEnFuncionDeXRK.TabIndex = 29;
+            this.chartXPrimeraEnFuncionDeXRK.Text = "chart2";
+            // 
+            // chartXSegundaEnFuncionDeXRK
+            // 
+            chartArea15.Name = "ChartArea1";
+            this.chartXSegundaEnFuncionDeXRK.ChartAreas.Add(chartArea15);
+            legend15.Name = "Legend1";
+            this.chartXSegundaEnFuncionDeXRK.Legends.Add(legend15);
+            this.chartXSegundaEnFuncionDeXRK.Location = new System.Drawing.Point(984, 16);
+            this.chartXSegundaEnFuncionDeXRK.Name = "chartXSegundaEnFuncionDeXRK";
+            series21.ChartArea = "ChartArea1";
+            series21.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series21.Legend = "Legend1";
+            series21.Name = "x\'\' en funcion de x";
+            this.chartXSegundaEnFuncionDeXRK.Series.Add(series21);
+            this.chartXSegundaEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
+            this.chartXSegundaEnFuncionDeXRK.TabIndex = 29;
+            this.chartXSegundaEnFuncionDeXRK.Text = "chart1";
+            // 
             // chartRK
             // 
-            chartArea8.Name = "ChartArea1";
-            this.chartRK.ChartAreas.Add(chartArea8);
-            legend8.Name = "Legend1";
-            this.chartRK.Legends.Add(legend8);
+            chartArea16.Name = "ChartArea1";
+            this.chartRK.ChartAreas.Add(chartArea16);
+            legend16.Name = "Legend1";
+            this.chartRK.Legends.Add(legend16);
             this.chartRK.Location = new System.Drawing.Point(476, 19);
             this.chartRK.Name = "chartRK";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series10.Legend = "Legend1";
-            series10.Name = "x\'\'";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series11.Legend = "Legend1";
-            series11.Name = "x\'";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series12.Legend = "Legend1";
-            series12.Name = "x";
-            this.chartRK.Series.Add(series10);
-            this.chartRK.Series.Add(series11);
-            this.chartRK.Series.Add(series12);
+            series22.ChartArea = "ChartArea1";
+            series22.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series22.Legend = "Legend1";
+            series22.Name = "x\'\'";
+            series23.ChartArea = "ChartArea1";
+            series23.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series23.Legend = "Legend1";
+            series23.Name = "x\'";
+            series24.ChartArea = "ChartArea1";
+            series24.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series24.Legend = "Legend1";
+            series24.Name = "x";
+            this.chartRK.Series.Add(series22);
+            this.chartRK.Series.Add(series23);
+            this.chartRK.Series.Add(series24);
             this.chartRK.Size = new System.Drawing.Size(502, 290);
             this.chartRK.TabIndex = 25;
             this.chartRK.Text = "chart1";
@@ -648,107 +755,32 @@ namespace Simulacion_TP6.InterfacesUsuario
             this.dataGridViewRK.Size = new System.Drawing.Size(464, 290);
             this.dataGridViewRK.TabIndex = 24;
             // 
-            // chartXSegundaEnFuncionDeXEuler
+            // inputCantidadPicos
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chartXSegundaEnFuncionDeXEuler.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chartXSegundaEnFuncionDeXEuler.Legends.Add(legend3);
-            this.chartXSegundaEnFuncionDeXEuler.Location = new System.Drawing.Point(984, 19);
-            this.chartXSegundaEnFuncionDeXEuler.Name = "chartXSegundaEnFuncionDeXEuler";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Legend = "Legend1";
-            series3.Name = "x\'\' en funcion de x";
-            this.chartXSegundaEnFuncionDeXEuler.Series.Add(series3);
-            this.chartXSegundaEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
-            this.chartXSegundaEnFuncionDeXEuler.TabIndex = 26;
-            this.chartXSegundaEnFuncionDeXEuler.Text = "chart1";
+            this.inputCantidadPicos.Location = new System.Drawing.Point(145, 208);
+            this.inputCantidadPicos.Maximum = new decimal(new int[] {
+            10000,
+            0,
+            0,
+            0});
+            this.inputCantidadPicos.Name = "inputCantidadPicos";
+            this.inputCantidadPicos.Size = new System.Drawing.Size(66, 20);
+            this.inputCantidadPicos.TabIndex = 30;
+            this.inputCantidadPicos.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
             // 
-            // chartXPrimeraEnFuncionDeXEuler
+            // lblCantidadPicos
             // 
-            chartArea2.Name = "ChartArea1";
-            this.chartXPrimeraEnFuncionDeXEuler.ChartAreas.Add(chartArea2);
-            legend2.Name = "Legend1";
-            this.chartXPrimeraEnFuncionDeXEuler.Legends.Add(legend2);
-            this.chartXPrimeraEnFuncionDeXEuler.Location = new System.Drawing.Point(1492, 19);
-            this.chartXPrimeraEnFuncionDeXEuler.Name = "chartXPrimeraEnFuncionDeXEuler";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Legend = "Legend1";
-            series2.Name = "x\' en funcion de x";
-            this.chartXPrimeraEnFuncionDeXEuler.Series.Add(series2);
-            this.chartXPrimeraEnFuncionDeXEuler.Size = new System.Drawing.Size(502, 290);
-            this.chartXPrimeraEnFuncionDeXEuler.TabIndex = 27;
-            this.chartXPrimeraEnFuncionDeXEuler.Text = "chart2";
-            // 
-            // chartXSegundaEnFuncionDeXPrimeraEuler
-            // 
-            chartArea1.Name = "ChartArea1";
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Legends.Add(legend1);
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Location = new System.Drawing.Point(2011, 19);
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Name = "chartXSegundaEnFuncionDeXPrimeraEuler";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Legend = "Legend1";
-            series1.Name = "x\'\' en funcion de x\'";
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Series.Add(series1);
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Size = new System.Drawing.Size(502, 290);
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.TabIndex = 28;
-            this.chartXSegundaEnFuncionDeXPrimeraEuler.Text = "chart3";
-            // 
-            // chartXSegundaEnFuncionDeXRK
-            // 
-            chartArea7.Name = "ChartArea1";
-            this.chartXSegundaEnFuncionDeXRK.ChartAreas.Add(chartArea7);
-            legend7.Name = "Legend1";
-            this.chartXSegundaEnFuncionDeXRK.Legends.Add(legend7);
-            this.chartXSegundaEnFuncionDeXRK.Location = new System.Drawing.Point(984, 16);
-            this.chartXSegundaEnFuncionDeXRK.Name = "chartXSegundaEnFuncionDeXRK";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series9.Legend = "Legend1";
-            series9.Name = "x\'\' en funcion de x";
-            this.chartXSegundaEnFuncionDeXRK.Series.Add(series9);
-            this.chartXSegundaEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
-            this.chartXSegundaEnFuncionDeXRK.TabIndex = 29;
-            this.chartXSegundaEnFuncionDeXRK.Text = "chart1";
-            // 
-            // chartXPrimeraEnFuncionDeXRK
-            // 
-            chartArea6.Name = "ChartArea1";
-            this.chartXPrimeraEnFuncionDeXRK.ChartAreas.Add(chartArea6);
-            legend6.Name = "Legend1";
-            this.chartXPrimeraEnFuncionDeXRK.Legends.Add(legend6);
-            this.chartXPrimeraEnFuncionDeXRK.Location = new System.Drawing.Point(1492, 16);
-            this.chartXPrimeraEnFuncionDeXRK.Name = "chartXPrimeraEnFuncionDeXRK";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series8.Legend = "Legend1";
-            series8.Name = "x\' en funcion de x";
-            this.chartXPrimeraEnFuncionDeXRK.Series.Add(series8);
-            this.chartXPrimeraEnFuncionDeXRK.Size = new System.Drawing.Size(502, 290);
-            this.chartXPrimeraEnFuncionDeXRK.TabIndex = 29;
-            this.chartXPrimeraEnFuncionDeXRK.Text = "chart2";
-            // 
-            // chartXSegundaEnFuncionDeXPrimeraRK
-            // 
-            chartArea5.Name = "ChartArea1";
-            this.chartXSegundaEnFuncionDeXPrimeraRK.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Legends.Add(legend5);
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Location = new System.Drawing.Point(2006, 16);
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Name = "chartXSegundaEnFuncionDeXPrimeraRK";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series7.Legend = "Legend1";
-            series7.Name = "x\'\' en funcion de x\'";
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Series.Add(series7);
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Size = new System.Drawing.Size(502, 290);
-            this.chartXSegundaEnFuncionDeXPrimeraRK.TabIndex = 30;
-            this.chartXSegundaEnFuncionDeXPrimeraRK.Text = "chart3";
+            this.lblCantidadPicos.AutoSize = true;
+            this.lblCantidadPicos.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadPicos.Location = new System.Drawing.Point(44, 208);
+            this.lblCantidadPicos.Name = "lblCantidadPicos";
+            this.lblCantidadPicos.Size = new System.Drawing.Size(89, 17);
+            this.lblCantidadPicos.TabIndex = 31;
+            this.lblCantidadPicos.Text = "Cantidad Picos";
             // 
             // FormMetodos
             // 
@@ -774,6 +806,9 @@ namespace Simulacion_TP6.InterfacesUsuario
             ((System.ComponentModel.ISupportInitialize)(this.inputCoeficienteADesdeSimulacion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEuler)).EndInit();
             this.gbEuler.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartEuler)).EndInit();
             this.gbValores.ResumeLayout(false);
             this.gbValores.PerformLayout();
@@ -783,14 +818,12 @@ namespace Simulacion_TP6.InterfacesUsuario
             ((System.ComponentModel.ISupportInitialize)(this.inputValorPicoEuler)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inputValorA)).EndInit();
             this.gbRK.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartRK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewRK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXEuler)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXEuler)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraEuler)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXRK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXPrimeraEnFuncionDeXRK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chartXSegundaEnFuncionDeXPrimeraRK)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inputCantidadPicos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -836,5 +869,7 @@ namespace Simulacion_TP6.InterfacesUsuario
         private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXPrimeraRK;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartXPrimeraEnFuncionDeXRK;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartXSegundaEnFuncionDeXRK;
+        private System.Windows.Forms.Label lblCantidadPicos;
+        private System.Windows.Forms.NumericUpDown inputCantidadPicos;
     }
 }
