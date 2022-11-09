@@ -89,7 +89,7 @@ namespace Simulacion_TP6.Entidades
             }
         }
 
-        public void finalizarTarea(double reloj)
+        public int finalizarTarea(double reloj)
         {
             Boolean puedoEnsamblar = this.colas.All(cola => cola.cantidad > 0);
             if (puedoEnsamblar)
@@ -105,6 +105,13 @@ namespace Simulacion_TP6.Entidades
                 this.cambiarEstado(false);
                 this.tiempo = 0;
                 this.tiempoFinalizacion = 0;
+            }
+            if (puedoEnsamblar)
+            {
+                return this.numeroPedidoAnterior;
+            } else
+            {
+                return this.numeroPedido;
             }
         }
 

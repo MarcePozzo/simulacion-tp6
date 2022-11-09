@@ -30,6 +30,7 @@ namespace Simulacion_TP6
         int horaAnterior = 0;
         int contadorEnsamblesPorHora = 0;
         double promedioEnsamblesPorHora = 0;
+        int contadorEnsamblesFinalizados = 0;
 
         // PUNTO 11
         int contadorPedidosPorHoraProbabilidad = 0;
@@ -77,41 +78,36 @@ namespace Simulacion_TP6
                         this.servidor3.tomarPedido(reloj, 0);
                         break;
                     case Eventos.FIN_ACTIVIDAD_1:
-                        this.servidor1.finalizarTarea(reloj);
-                        numeroPedidoEvento = this.servidor1.numeroPedido;
+                        numeroPedidoEvento = this.servidor1.finalizarTarea(reloj);
                         this.servidor4.tomarPedido(reloj, 0);
                         break;
                     case Eventos.FIN_ACTIVIDAD_2:
-                        this.servidor2.finalizarTarea(reloj);
-                        numeroPedidoEvento = this.servidor2.numeroPedido;
+                        numeroPedidoEvento = this.servidor2.finalizarTarea(reloj);
                         this.servidor5.tomarPedido(reloj, 0);
                         break;
                     case Eventos.FIN_ACTIVIDAD_3:
-                        this.servidor3.finalizarTarea(reloj);
-                        numeroPedidoEvento = this.servidor3.numeroPedido;
+                        numeroPedidoEvento = this.servidor3.finalizarTarea(reloj);
                         this.servidorFinalizacion.tomarPedido(reloj, 0);
                         break;
                     case Eventos.FIN_ACTIVIDAD_4:
-                        this.servidor4.finalizarTarea(reloj);
-                        numeroPedidoEvento = this.servidor4.numeroPedido;
+                        numeroPedidoEvento = this.servidor4.finalizarTarea(reloj);
                         this.servidor5.tomarPedido(reloj, 1);
                         break;
                     case Eventos.FIN_ACTIVIDAD_5:
-                        this.servidor5.finalizarTarea(reloj);
-                        numeroPedidoEvento = this.servidor5.numeroPedido;
+                        numeroPedidoEvento = this.servidor5.finalizarTarea(reloj);
                         this.servidorFinalizacion.tomarPedido(reloj, 1);
                         break;
                     case Eventos.FIN_ACTIVIDAD_6:
-                        this.servidorFinalizacion.finalizarTarea(reloj);
+                        contadorEnsamblesFinalizados = this.servidorFinalizacion.finalizarTarea(reloj);
                         break;
                     default:
                         break;
                 }
 
                 // PUNTO 2
-                if (this.servidorFinalizacion.numeroPedido != 0)
+                if (this.contadorEnsamblesFinalizados != 0)
                 {
-                    this.tiempoPromedioEnsamble = reloj / this.servidorFinalizacion.numeroPedido;
+                    this.tiempoPromedioEnsamble = reloj / this.contadorEnsamblesFinalizados;
                 }
 
                 // PUNTOS 5 Y 6
@@ -155,12 +151,12 @@ namespace Simulacion_TP6
                     this.aumentoContadorProbabilidadMismaHora = false;
                     this.contadorEnsamblesPorHora = 0;
                 }
-                if (this.servidorFinalizacion.numeroPedido != numeroPedidoContadorHora)
+                if (this.contadorEnsamblesFinalizados != numeroPedidoContadorHora)
                 {
                     this.contadorEnsamblesPorHora++;
-                    numeroPedidoContadorHora = this.servidorFinalizacion.numeroPedido;
+                    numeroPedidoContadorHora = this.contadorEnsamblesFinalizados;
                 }
-                this.promedioEnsamblesPorHora = (double)this.servidorFinalizacion.numeroPedido / this.hora;
+                this.promedioEnsamblesPorHora = (double)this.contadorEnsamblesFinalizados / this.hora;
 
                 // PUNTO 11
                 if (!this.aumentoContadorProbabilidadMismaHora && this.contadorEnsamblesPorHora > pedidosPorHoraProbabilidad)
@@ -256,7 +252,7 @@ namespace Simulacion_TP6
             fila.Add(evento);
             fila.Add(numeroPedidoEvento.ToString());
 
-            fila.Add(this.servidorFinalizacion.numeroPedido.ToString());
+            fila.Add(this.contadorEnsamblesFinalizados.ToString());
             fila.Add(this.hora.ToString());
             fila.Add(this.contadorEnsamblesPorHora.ToString());
             fila.Add(this.promedioEnsamblesPorHora.ToString());
@@ -271,15 +267,15 @@ namespace Simulacion_TP6
             double proporcionRealizadosSolicitados = 0;
             if (this.pedido.numeroPedido != 0)
             {
-                proporcionRealizadosSolicitados = (double)this.servidorFinalizacion.numeroPedido / (double)this.pedido.numeroPedido;
+                proporcionRealizadosSolicitados = (double)this.contadorEnsamblesFinalizados / (double)this.pedido.numeroPedido;
             }
             fila.Add(proporcionRealizadosSolicitados.ToString());
 
             // PUNTO 7
             double promedioPedidosSistema = 0;
-            if (this.servidorFinalizacion.numeroPedido != 0)
+            if (this.contadorEnsamblesFinalizados != 0)
             {
-                promedioPedidosSistema = this.pedido.numeroPedido / this.servidorFinalizacion.numeroPedido;
+                promedioPedidosSistema = this.pedido.numeroPedido / this.contadorEnsamblesFinalizados;
             }
 
 
